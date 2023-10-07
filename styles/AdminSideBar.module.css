@@ -1,0 +1,140 @@
+.sidebar_contain{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main_sidebar{
+    min-height: 100%;
+    width: 250px;
+    border-right: 1px solid #e0e0e0;
+    background: white;
+}
+
+@media screen and (max-width: 992px){
+    .main_sidebar{
+        position: fixed;
+        z-index: 200;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+        transform: translateX(-100%);
+        overflow-y: auto;
+    }
+}
+
+.mobile_active{
+    transform: translateX(0);
+}
+
+.logo_contain{
+    height: 60px;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-right: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+.toggler{
+    line-height: 1em;
+    background: none;
+    color: #222222;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 992px){
+    .toggler{
+        display: block;
+    }
+}
+
+.nav_container{
+    padding: 40px 20px;
+}
+
+.nav_list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav_item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 40px;
+    width: 100%;
+    font-size: .9em;
+    line-height: 1em;
+    color: #001d6e;
+    padding: 0 15px;
+    border-radius: 5px;
+}
+
+.nav_item:hover{
+    background: #001d6e;
+    color: white;
+}
+
+.nav_item_active{
+    background: #001d6e;
+    color: white;
+}
+
+.main_content{
+    flex: 1;
+    background: white;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.main_content_header{
+    height: 60px;
+    border: 1px solid #e0e0e0;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: white;
+}
+
+.toggler_contain{
+    display: flex;
+    gap: 14px;
+}
+
+.page_name{
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.admin_name_contain{
+    height: 60%;
+    padding: 0 10px;
+    border-left: 2px solid #e0e0e0;
+    font-size: .9em;
+    display: flex;
+    gap: 10px;
+    align-items: center ;
+}
+
+.main_content_body{
+    padding: 10px 20px;
+}

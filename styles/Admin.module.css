@@ -1,0 +1,45 @@
+.navigation_card{
+    padding: 20px;
+    background: #001d6e;
+    border-radius: 5px;display: block;
+    color: white;
+}
+
+.navigation_card_header{
+    font-weight: 600;
+}
+
+.navigation_card:hover .navigation_card_header{
+    text-decoration: underline;
+}
+
+.anchor > a{
+    color: #001d6e;
+    font-size: .9em;
+}
+
+.switch:checked{
+    background: #001d6e;
+}
+
+.button{
+    background: #001d6e;
+}
+
+.button:hover{
+    background: #001d6e;
+    opacity: .8;
+}
+
+.table_container{
+    margin: 20px 0;
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+}

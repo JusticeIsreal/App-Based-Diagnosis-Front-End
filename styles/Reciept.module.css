@@ -1,0 +1,121 @@
+.reciept h1{
+    text-align: center;
+    margin-bottom: 60px;
+    background-color: royalblue;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* gap: 40px; */
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+
+}
+.reciept{
+    padding: 60px;
+    background-color: white;
+    width: 600px;
+    margin: 20px auto;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.recieptLogo{
+    height: 50px;
+    width: 50px;
+}
+
+.recieptLogo img{
+    height: 100%;
+    width: 100%;
+}
+
+.reciept .recieptTop {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.reciept .recieptTop input {
+    width: 150px;
+    margin-bottom: 15px;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.reciept h3{
+    margin-bottom: 10px;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.patientDetails{
+    margin-bottom: 50px;
+}
+
+.reciept label{
+    transform: translateY(7px);
+    font-family: 'Outfit', sans-serif;
+
+}
+
+
+.patientDetails div,.content div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+
+.reciept input, .reciept textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px dotted gray;
+    width: 400px;
+    margin-left: 10px;
+    outline: none;
+
+}
+
+.content textarea{
+    height: 40px;
+}
+
+.signature{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signature .signatureContainer{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.signature .signatureContainer::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 200px;
+    height: 2px;
+    background-color: gray;
+}
+
+.signatureContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.reciept h4{
+    margin-top: 60px;
+    text-align: left;
+}
+
+.reciept p{
+    margin-top: 40px;
+    color: gray;
+    text-align: center;
+    letter-spacing: 2px;
+}

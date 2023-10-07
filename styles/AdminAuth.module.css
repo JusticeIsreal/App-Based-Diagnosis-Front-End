@@ -1,0 +1,41 @@
+.auth_container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth_card{
+    width: 400px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image_contain{
+    display: block;
+    position: relative;
+    width: 40px;
+}
+
+.button{
+    background: #001d6e;
+}
+
+.button:hover{
+    background: #001d6e;
+    opacity: .8;
+}
+
+.reset_password{
+    font-size: .9em;
+}
+
+.reset_password:hover{
+    text-decoration: underline;
+}
