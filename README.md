@@ -1,35 +1,176 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<!-- <img src='https://res.cloudinary.com/isreal/image/upload/v1683629482/yleqg3mdurtvamjmjn61.png' /> -->
 
-First, run the development server:
+# Project Description 📝
+App Based Diagnosis Medical Application. <br/>
+The platform is built using the **Next js**.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<hr/>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<img width='100%' src='https://res.cloudinary.com/isreal/image/upload/v1705759540/Screenshot_2024-01-20_at_08.56.47_oivq4a.png' />
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Table of Contents
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+| Section                 | Description                                  |
+|-------------------------|----------------------------------------------|
+| [My Aim](#my-aim-)        | 📚 Overview of My portfolio            |
+| [Tech Stack](#tech-stack-)             | 💻🔧 Technologies used in the project         |
+| [System Architecture](#system-architecture-)    | 🏰 Overview of the system architecture      |
+| [Architecture Diagram](#architecture-diagram-)   | 🏗️ Diagram illustrating the architecture   |
+| [React Hooks](#react-hooks-)            | 🎣 Overview of React Hooks utilized          |
+| [React Library](#-react-library)         | ⚛️📚 Overview of React Libraries used        |
+| [Screen Preview](#-screen-preview)         | 🖥️ Screen Preview        |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# App-Based-Diagnosis-Front-End
+
+
+
+
+## My Aim 📚 
+<br/>
+1️⃣ A seamless and interactive App Based medical diagnosis application for doctors and other medical practisioners.<br/>
+2️⃣ A platform that allows medical practioner make smart and intelligent medical prescriptions for their clients based on obvious symptoms
+<br/>
+<br/>
+
+## Tech Stack 💻🔧 
+
+## Frontend 🎨 : 
+<code title="React.js"><img height="40" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/graphql%20ogo.png"></code>
+<code title="React.js"><img height="40" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/react%20ogo.png"></code>
+<code title="Vite"><img height="40" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/Vitejs-logo.png"></code>
+<code title="Redux.js"><img height="35" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/redux-logo.png"></code>
+<code title="css"><img height="40" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/css%20logo.png"></code>
+<code title="Tailwind css"><img height="35" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/tailwind%20css%20logo.png"></code>
+
+
+## Backend ⚙️ :
+<code title="React.js"><img height="40" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/graphql%20ogo.png"></code>
+<code title="Nodejs"><img height="50" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/nodejs-logo.png"></code>
+<code title="Express"><img height="70" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/express%20logo.png"></code>
+
+
+## Database 🛢️ :
+<code title="Mongodb"><img height="40" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/mongodb%20logo.png"></code>
+
+## Cloudinary Integration ☁️
+<code title="Mongodb"><img height="40" src="https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Tech%20stack%20logo/cloudinary-logo.jpg"></code>
+
+<hr/>
+
+
+
+
+## System Architecture 🏰
+<br/>
+☝ App Based Diagnosis Medical Application consists of three main components:  <br/>
+The front end, the back end, and the database. The platform follows a client-server architecture, with the front end serving as the client and the back end and database serving as the server.
+
+🎨 Front-end  <br/>
+The front end of the platform is built using Next JS which is a popular JavaScript library for building user interfaces, allows for the creation of dynamic and responsive user interfaces also **Loading Skeleton**, which are critical for providing an engaging UI experience to visitors. The front end communicates with the back end using RESTful API calls.Apollo client was used to interacte with the GraphQL query in the backed
+
+⚙️ Back-end  <br/>
+The back end of the platform is built using NodeJS and ExpressJS and GraphQL, which are popular frameworks for building scalable and robust server-side applications. The back end provides APIs for the front end to consume, which include functionalities such as project update and content patch requests. The back end also handles the logic for processing and storing the images content and user data.
+
+🛢️ Database  <br/>
+The database for the platform is built using MongoDB, which is a NoSQL database that provides a flexible and scalable data storage solution. MongoDB allows for the storage of unstructured and semi-structured data, images, and PDFs.
+
+
+
+## Architecture Diagram 🏗️
+<br/>
+Here is a high-level diagram that illustrates the architecture of the StudyNotion ed-tech platform:
+<img width='60%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Architecture%20Diagram.png' />
+
+
+<hr/>
+
+### Back-end ⚙️
+
+The back-end of the platform is built using NodeJS and ExpressJS, providing APIs for the front-end to consume. These APIs include functionalities such as user authentication, Project update, and content update. The back-end also handles the logic for processing and storing the images and pdf.
+
+#### Back-end Features
+
+- **User Authentication and Authorization 🔐:** Admin can sign in to the platform using their email addresses and passwords. The platform also supports OTP (One-Time Password) verification and forgot password functionality for added security.
+- **Project update 🛠️:** Admin can update project list by adding new project or removing old project from the list.
+- **Content edit 💳:** Admin can update any content or phrase on the platform and make all neccessary changes in case or wrong spelling or updated bio.
+- **Emails ☁️ :** Admin can access email and review content for dispaly and reply.
+
+
+
+
+
+
+### Database 🛢️
+The database for the platform is built using MongoDB, a NoSQL database that provides a flexible and scalable data storage solution. MongoDB allows for the storage of unstructured and semi-structured data. The database stores the course content, user data, and other relevant information related to the platform.
+
+<!-- ## Schema 📋
+<img width='100%' src='https://github.com/Aniruddha-Gade/Study-Notion-EdTech__MERN-Stack/blob/main/screenshots/Schema.png' /> -->
+
+<hr/>
+
+
+## React Hooks 🎣
+
+Utilized several React hooks for efficient state management and dynamic behavior:
+
+- `useState`
+- `useEffect`
+- `useDispatch`
+- `useParams`
+- `useSelector`
+- `useLocation`
+- `useNavigate`
+- `useRef`
+- `useForm`
+- `useDropzone`
+- `Custom-Hook`
+
+<br/>
+
+## 📚 **React Library**:
+
+- 🚀 **Lazy Loading**: Enhance performance by lazily loading images using the react-lazy-load-image library.
+- 📊 **Chart.js:**  Versatile charting library for creating interactive and visually appealing charts.
+- 🎭**Framer Motion:**  Animation library for React, providing smooth and expressive motion.
+- 📁 **React Dropzone:**  Drag-and-drop file uploader for React applications.
+- 🍞 **React Hot Toast:**  Elegant and customizable toast notifications for React applications.
+- 🔢 **React OTP Input:**  Input component for one-time password entry in React forms.
+- 📊 **React Super Responsive Table:**  Highly responsive and feature-rich table component for React.
+- 🔄 **Swiper:**  Modern touch slider for mobile and desktop browsers.
+- 🖋️ **React Type Animation:**  Simple and configurable typing animation component for React.
+
+
+
+
+##  🖥️ Screen Preview:
+
+# Banner  🏠 
+<img width='100%' src='https://res.cloudinary.com/isreal/image/upload/v1705759540/Screenshot_2024-01-20_at_08.56.47_oivq4a.png' />
+
+
+# Features
+<img width='100%' src='https://res.cloudinary.com/isreal/image/upload/v1705759537/Screenshot_2024-01-20_at_08.56.56_hgtl1p.png' />
+
+
+# How it works
+<img width='100%' src='https://res.cloudinary.com/isreal/image/upload/v1705759537/Screenshot_2024-01-20_at_08.57.03_rn3ovj.png' />
+
+
+# Who is it for
+<img width='100%' src='
+https://res.cloudinary.com/isreal/image/upload/v1705759538/Screenshot_2024-01-20_at_08.57.11_dk6v09.png' />
+
+
+# Our plans
+<img width='100%' src='https://res.cloudinary.com/isreal/image/upload/v1705759537/Screenshot_2024-01-20_at_08.57.17_rjdz9k.png' />
+
+
+# Reviews
+<img width='100%' src='https://res.cloudinary.com/isreal/image/upload/v1705759540/Screenshot_2024-01-20_at_08.57.26_zfmnup.png' />
